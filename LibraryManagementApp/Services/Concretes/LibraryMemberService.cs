@@ -7,6 +7,7 @@ namespace LibraryManagementApp.Services.Concretes;
 internal class LibraryMemberService : ILibraryMemberService
 {
     List<LibraryMember> members = new();
+
     public void CreateLibraryMember(LibraryMember libraryMember)
     {
         members.Add(libraryMember);
